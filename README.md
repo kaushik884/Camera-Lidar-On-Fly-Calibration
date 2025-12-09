@@ -1,7 +1,5 @@
 # SST-Calib: Spatial-Temporal LiDAR-Camera Calibration
 
-> **Note:** This is a course project implementation based on the SST-Calib paper. The implementation may not achieve the same accuracy as reported in the original paper and is intended for educational purposes.
-
 Autonomous online calibration of LiDAR-camera extrinsics with temporal synchronization using semantic segmentation.
 
 ## Overview
@@ -21,8 +19,8 @@ SST-Calib performs joint spatial-temporal calibration between LiDAR and camera s
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/AFR-Final-Project.git
-cd AFR-Final-Project
+git clone https://github.com/kaushik884/Camera-Lidar-On-Fly-Calibration.git
+cd Camera-Lidar-On-Fly-Calibration
 ```
 
 ### 2. Create Virtual Environment
@@ -56,7 +54,7 @@ Download from: [SalsaNext GitHub](https://github.com/TiagoCortinhal/SalsaNext)
 Create the following structure in `SST_calib/dataset/`:
 
 ```
-AFR-Final-Project/
+Camera-Lidar-On-Fly-Calibration/
 ├── SST_calib/
 │   ├── dataset/
 │   │   ├── 2011_09_26/
@@ -189,9 +187,3 @@ Based on the original paper:
 
 **Disclaimer:** This is an independent course project implementation. Results may differ from the original paper. This implementation is for educational purposes and is not affiliated with the original authors.
 
-## Team Members
-
-- Kaushik Deo
-- Samara Holmes  
-- Nishad Milind Rajhans
-- Hemanth Raj Tekumalla
